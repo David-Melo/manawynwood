@@ -1,0 +1,131 @@
+/*
+ Theme Name:     MANA Wynwood
+ Theme URI:      https://ideal.consulting
+ Description:    Divi Child Theme by Ideal.Cosulting
+ Author:         David Melo
+ Author URI:     https://ideal.consulting
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+/*@font-face{*/
+    /*font-family:"Chantilly-Bold";*/
+    /*src:url("http://mana.bitnamiapp.com/wp-content/uploads/et-fonts/Chantilly-Serial-Bold.ttf") format("truetype")*/
+/*}*/
+/*@font-face{*/
+    /*font-family:"Chantilly-Light";*/
+    /*src:url("http://mana.bitnamiapp.com/wp-content/uploads/et-fonts/Chantilly-Serial-Light.ttf") format("truetype")*/
+/*}*/
+/*@font-face{*/
+    /*font-family:"Chantilly-Medium";*/
+    /*src:url("http://mana.bitnamiapp.com/wp-content/uploads/et-fonts/Chantilly-Serial-Bold.ttf") format("truetype")*/
+/*}*/
+/*@font-face{*/
+    /*font-family:"Chantilly-Extra-Light";*/
+    /*src:url("http://mana.bitnamiapp.com/wp-content/uploads/et-fonts/Chantilly-Extra-Light.ttf") format("truetype")*/
+/*}*/
+/*h1,h2,h3,h4,h5,h6{*/
+    /*font-family:'Chantilly-Medium',Helvetica,Arial,Lucida,sans-serif*/
+/*}*/
+/*body,input,textarea,select{*/
+    /*font-family:'Chantilly-Extra-Light',Helvetica,Arial,Lucida,sans-serif*/
+/*}*/
+#et-info {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100 !important;
+}
+.slbOverlay {
+    z-index: 99999;
+}
+.slbWrapOuter {
+    z-index: 99999;
+}
+#nav-logo {
+    display: block;
+    margin: 25px 0 25px 0;
+    height: 30px;
+}
+.et_pb_section_video:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+20,000000+80,000000+100&0.5+1,0.1+33,0.05+50,0.05+50,0.1+67,0.5+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 1%, rgba(0,0,0,0.26) 20%, rgba(0,0,0,0.1) 33%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.1) 67%, rgba(0,0,0,0.26) 80%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 1%,rgba(0,0,0,0.26) 20%,rgba(0,0,0,0.1) 33%,rgba(0,0,0,0.05) 50%,rgba(0,0,0,0.1) 67%,rgba(0,0,0,0.26) 80%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 1%,rgba(0,0,0,0.26) 20%,rgba(0,0,0,0.1) 33%,rgba(0,0,0,0.05) 50%,rgba(0,0,0,0.1) 67%,rgba(0,0,0,0.26) 80%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+    z-index: 1;
+}
+.et_pb_section_video:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url(http://mana.bitnamiapp.com/wp-content/uploads/2018/06/fake-brick.png);
+    z-index: 0;
+}
+/*.nav {*/
+/*text-shadow: 0 0 5px black;*/
+/*}*/
+/*.mana {*/
+/*fill: white;*/
+/*}*/
+/*.wynwood {*/
+/*fill: #b2b2b2;*/
+/*}*/
+.mana {
+    fill: black;
+}
+.wynwood {
+    fill: #515151;
+}
+.et-fixed-header .nav {
+    text-shadow: none !important;
+}
+.et-fixed-header {
+
+}
+.et_pb_map{height:70vh!important}
+
+#top-menu li li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#top-menu li li a {
+    width: 100%;
+}
+.facility-headings .fact-label,
+.facility-headings .fact-detail{
+    color: #7b7b7b;
+}
+.facility-heading-container .entry-title {
+    font-weight: 900;
+}
+.facility-description h2 {
+    color: #9b9b9b!important;
+    text-transform: uppercase !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sub-details h3 {
+    padding-bottom: 5px !important;
+}
+.sub-details p {
+    font-size: 17px;
+    line-height: 26px;
+}
+hr.styled {
+    border-color: black;
+    border-top-width: 2px;
+}

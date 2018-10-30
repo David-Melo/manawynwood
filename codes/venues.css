@@ -1,0 +1,206 @@
+.flagship-venues {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 0px;
+}
+.flagship-venues .venues-item {
+
+}
+.signature-venues {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 0;
+}
+.signature-venues .venues-item {
+    /*border: 1px solid rgba(128, 128, 128, 0.24);*/
+}
+.outdoor-venues {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 0;
+}
+.outdoor-venues .venues-item {
+    /*border: 1px solid rgba(128, 128, 128, 0.24);*/
+}
+.outdoor-venues .venue-details {
+    padding: 0px;
+}
+.outdoor-venues .venue-item-wrapper {
+    /*height: 200px;*/
+}
+.venues-wrapper {
+
+}
+.venue-item-wrapper {
+    /*height: 250px;*/
+}
+.venue-description {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.outdoor-venues .venue-description {
+    font-size: 16px;
+    line-height: 23px;
+}
+.venues-item-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding: 0 0 15px;
+}
+.venues-item-description {
+    padding: 15px 0 25px;
+    font-size: 18px;
+}
+.venues-item {
+    display: grid;
+    margin: 30px 0;
+    grid-auto-rows: 1fr;
+}
+.venues-item:nth-child(even) {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.venues-item:nth-child(odd) {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.venue-details {
+    padding: 0;
+}
+
+.venues-item .venue-image-wrapper .venue-details,
+.venues-item .venue-image-wrapper  { grid-row: 1; }
+
+.venues-item:nth-child(odd) .venue-image-wrapper {grid-column: 1 / span 2; }
+.venues-item:nth-child(odd) .venue-details {grid-column: 3 / span 1;}
+.venues-item:nth-child(odd) .venue-text {  padding-left: 30px; }
+.venues-item:nth-child(odd) .venue-link {  padding-left: 30px; }
+
+.venues-item:nth-child(even) .venue-image-wrapper {grid-column: 2 / span 2; }
+.venues-item:nth-child(even) .venue-details {grid-column: 1 / 1; }
+.venues-item:nth-child(even) .venue-text { padding-right: 30px }
+.venues-item:nth-child(even) .venue-link { padding-right: 30px }
+
+.facts, .fact,  hr, .venues-item {
+    border-style: solid;
+    border-width: 0;
+    border-color: white;
+}
+.title-div {
+    border-color: black;
+    border-top-width: 2px;
+}
+
+.venues-item {
+    /*box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);*/
+    transition: all .2s ease-in-out;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,e8e8e8+50,fafafa+100 */
+    /*background: rgb(250,250,250); !* Old browsers *!*/
+    /*background: -moz-linear-gradient(-45deg,  rgba(250,250,250,1) 0%, rgba(232,232,232,1) 50%, rgba(250,250,250,1) 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(-45deg,  rgba(250,250,250,1) 0%,rgba(232,232,232,1) 50%,rgba(250,250,250,1) 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(135deg,  rgba(250,250,250,1) 0%,rgba(232,232,232,1) 50%,rgba(250,250,250,1) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=1 ); !* IE6-9 fallback on horizontal gradient *!*/
+    color: #000;
+}
+/*.venues-item:hover { transform: scale(1.01); }*/
+hr {
+    height: 0;
+    border-top-width: 1px;
+}
+
+.venues-item img {
+    display: block;
+    min-width: 100%;
+}
+.img-overlay {
+    visibility: hidden;
+}
+
+.venues-display .facts {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+
+}
+.venues-display .fact:first-child {
+    border-right-width: 1px;
+}
+
+.venues-display .fact {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.venues-display .fact .value { color: black; }
+.venues-display .fact .value {
+    font-size: 15px;
+}
+.venues-display .fact .heading {
+    font-size: 13px;
+    line-height: 19px;
+}
+.venues-display .fact .value span {
+    text-transform: initial;
+    font-size: 12px;
+}
+.venue-cta a {
+    text-align: center;
+    display: block;
+    padding: 10px 30px;
+}
+
+.venues-display .venue-link {
+    text-align: center;
+    position: relative;
+    color: #000;
+    /*background-color: black;*/
+}
+/*.venues-display .venue-link:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 50%;*/
+    /*margin-left: -10px;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-top: solid 10px #FFFF;*/
+    /*border-left: solid 10px transparent;*/
+    /*border-right: solid 10px transparent;*/
+/*}*/
+.venues-display .venue-link a {
+    color: black;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: block;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.venues-display .venue-link a:hover {
+    color: white;
+    line-height: 50px;
+    text-transform: uppercase;
+    display: block;
+    background: black;
+    border: 2px solid black;
+}
+.venue-text {
+    /*padding: 50px;*/
+}
+.venue-nav-link {
+    color: #212121;
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    height: 100%;
+    content: '';
+}
+.venues-wrapper-bg {
+    background-position: center;
+    background-size: cover;
+}
+

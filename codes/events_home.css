@@ -1,0 +1,57 @@
+.e-list-home {
+    margin: 20px 0;
+    padding: 0 !important;
+    /*display: grid;*/
+    height: 100%;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    /*grid-template-rows: 1fr;*/
+    /*grid-template-areas: ". . . .";*/
+    /*border-left:  1px solid #c2c2c2;*/
+    /*border-right:  1px solid #c2c2c2;*/
+}
+
+.e-list-home .e-item {
+    background-size: cover;
+}
+
+.e-list-home .e-item > a {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-shadow: 0 0 8px #000000bd;
+}
+
+.e-list-home .e-item > a:hover {
+    background: #000000ba;
+}
+
+.e-list-home .e-item > a:hover > .e-title
+{
+    transform: scale(1.05);
+}
+
+.e-list-home .e-item a:hover {
+
+}
+
+.e-date {
+    font-size: 17px;
+    line-height: 17px;
+}
+.e-title {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 900;
+    margin: 5px 0;
+    font-family: 'Chantilly-Serial-Regular',Helvetica,Arial,Lucida,sans-serif;
+}
+.e-location {
+    color: #cecece;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.e-list-home .slick-slide > div {
+    padding: 0 15px;
+}
